@@ -255,7 +255,21 @@
   flex-direction: column;  
 }
 
-.progetto3,
+.progetto3 img {
+  -webkit-transition:all 0.2s linear;
+  -moz-transition:all 0.2s linear;
+  -o-transition:all 0.2s linear;
+  -ms-transition:all 0.2s linear;
+  transition:all 0.2s linear;
+}
+.progetto3 :hover img {
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+  -o-transform:scale(1.1,1.1);
+  -ms-transform:scale(1.1,1.1);
+  transform:scale(1.1,1.1);
+}
+
 .progetto1 img {
   -webkit-transition:all 0.2s linear;
   -moz-transition:all 0.2s linear;
@@ -263,7 +277,6 @@
   -ms-transition:all 0.2s linear;
   transition:all 0.2s linear;
 }
-.progetto3,
 .progetto1 :hover img {
   -webkit-transform:scale(1.1,1.1);
   -moz-transform:scale(1.1,1.1);
